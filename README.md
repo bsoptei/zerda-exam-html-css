@@ -81,7 +81,7 @@ Add your answer to this readme file, commit your changes to this repository.
 </html>
 ```
 #### Your answer: [2p]
-
+By setting the position of the .foo div to absolute, a coordinate system is created. By setting the position of .bar to absolute, it is going to be positioned relatively to its nearest positioned ancestor, which is the .foo div. Besides, the padding of the body is set to 0. So, the yellow div (.bar) is going to appear 40px from top, and 40 px from left fromt the upper left corner of the document body. The distance is the diagonal of this 40x40 square, which is approximately 56.6px.
 
 ## 3. Explain concepts (~15 minutes) [4 points]
 Add your answer to this readme file, commit your changes to this repository.
@@ -89,7 +89,12 @@ Add your answer to this readme file, commit your changes to this repository.
 
 ### Explain the difference between `display: block` and `display: inline` in CSS! What is `display: inline-block`?
 #### Your answer: [2p]
+The main difference between block-level and inline elements is that the former begin on new lines, and the latter don't.
+By default, block elements expand their widthto fill their parent element, and their height to fit their children. Inline elements go with the flow of the text content.
+If an element's display property is set to inline-block, appears as an inline element, but behaves as a block element.
 
 
 ### What is the difference between a `<section>` and an `<article>` element? Name one good example of using an `<article>`.
 #### Your answer: [2p]
+A <section> is a generic element, it can be applied for content grouping in a thematical manner, while an <article> is self-contained (it has its own meaning).
+A blog entry is a good example for an <article>.

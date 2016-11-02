@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: normal;
+  margin: 10px 0 0;
+  padding: 10px 20px 0;
+}
+
+p {
+  margin: 0;
+  padding: 0 20px;
+}
+
+div {
+  width: 540px;
+  height: 180px;
+  margin: 50px auto;
+  display: flex;
+}
+
+div:nth-of-type(odd) {
+  background: #fffff0;
+}
+
+div:nth-of-type(even) {
+  background: #abb7e0;
+}
+
+div > img {
+  flex-grow: 4;
+  max-width: 180px;
+}
+
+img:last-child {
+  float: right;
+  padding: 10px 20px 0;
+}
+
+section {
+  max-width: 360px;
+  border-left: 10px solid #546294;
+}
+
+table {
+  text-align: left;
+  padding: 0 20px;
+}
+
+th {
+  padding-right: 25px;
+}
