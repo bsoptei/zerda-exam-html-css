@@ -96,5 +96,5 @@ If an element's display property is set to inline-block, appears as an inline el
 
 ### What is the difference between a `<section>` and an `<article>` element? Name one good example of using an `<article>`.
 #### Your answer: [2p]
-A <section> is a generic element, it can be applied for content grouping in a thematical manner, while an <article> is self-contained (it has its own meaning).
-A blog entry is a good example for an <article>.
+A section is a generic element, it can be applied for content grouping in a thematical manner, while an article is self-contained (it has its own meaning).
+A blog entry is a good example for an article.
