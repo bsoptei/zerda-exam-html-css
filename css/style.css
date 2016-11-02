@@ -14,11 +14,18 @@ h1 {
   font-size: 28px;
   font-weight: normal;
   margin: 10px 0 0;
-  padding: 10px 20px 0;
+}
+
+h1,
+img:last-child {
+    padding: 10px 20px 0;
 }
 
 p {
   margin: 0;
+}
+
+p, table {
   padding: 0 20px;
 }
 
@@ -38,13 +45,11 @@ div:nth-of-type(even) {
 }
 
 div > img {
-  flex-grow: 4;
   max-width: 180px;
 }
 
 img:last-child {
   float: right;
-  padding: 10px 20px 0;
 }
 
 section {
@@ -54,7 +59,6 @@ section {
 
 table {
   text-align: left;
-  padding: 0 20px;
 }
 
 th {
